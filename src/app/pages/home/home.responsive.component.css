@@ -1,0 +1,63 @@
+@media screen and (min-width:400px) and (max-width:768px){
+
+.container-articles{
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-color: black;
+  margin-top: 250px;
+
+}
+.articles-main{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.articles-others{
+  height: 700px;
+  margin-bottom: 150px;
+}
+
+hr{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  width: 100vw;
+  height: 1px;
+  border: 0px;
+  border-top: 1px solid rgb(68, 67, 65);
+  background-color: #707070;
+}
+.white-notices{
+  height: 1000px;
+  background-color: white;
+  margin: auto;
+}
+.flex-cards{
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-notices{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.editor > p{
+
+  color: grey;
+  text-align: center;
+  margin-top: 40px;
+}
+
+}

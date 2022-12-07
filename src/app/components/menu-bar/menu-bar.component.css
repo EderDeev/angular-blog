@@ -1,0 +1,55 @@
+.container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 1400px;
+
+
+}
+.cardLeft{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.circulo{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-image: linear-gradient(45deg , #FE2F85,#FB623B);
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardLeft > ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.cardLeft ul > li{
+  margin-right: 20px;
+  list-style: none;
+  font-size: 14px;
+}
+
+.cardLeft ul > li > a{
+color: rgb(145, 142, 142);
+}
+
+.cardRight{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardRight > a > img{
+  width: 25px;
+  margin-right: 20px;
+
+}
+.circulo:hover{
+  cursor: pointer;
+}

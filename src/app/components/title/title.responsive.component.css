@@ -1,0 +1,19 @@
+@media screen and (min-width:400px) and (max-width:768px){
+  .menu-title-container{
+    width: 100vw;
+    max-width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .menu-title-container > h1{
+    font-size: 15vw;
+    text-align: center;
+  }
+
+  .menu-title-container > hr{
+    width: 100vw;
+  }
+  hr{
+    width: 100vw;
+  }
+}

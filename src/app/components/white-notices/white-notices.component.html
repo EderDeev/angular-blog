@@ -1,0 +1,18 @@
+
+<div class="container-white-card">
+
+  <div class="photo">
+   <a [routerLink]="['content', Id]"> <img src="{{photoCover}}" alt="imagem blog" > </a>
+  </div>
+  <div class="time">
+    <p>{{cardTime}}</p>
+  </div>
+  <div class="title">
+  <a [routerLink]="['content', Id]">  <h1>{{cardTitle}}</h1> </a>
+  </div>
+
+  <div class="description">
+    <p>{{cardDescription}}</p>
+  </div>
+</div>
+
